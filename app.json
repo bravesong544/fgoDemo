@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/userSetting/index",
+    "pages/damageCalculation/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "fgo材料查询",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "材料查询"
+    }, {
+      "pagePath": "pages/userSetting/index",
+      "text": "好图欣赏"
+    }]
+  }
+}

@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class="bg">
+    <image src='../../images/fgo_bg_01.jpg' mode='aspectFill'></image>
+  </view>
+  <picker mode="selector" value="{{index}}" range="{{dataJson}}" range-key="name" bindchange="changePicker">
+    <view style='color: #ccc;'>
+      当前选择材料： {{dataJson[index].name}}
+    </view>
+  </picker>
+  <view class='show-box' wx:if="{{index}}">
+    <block wx:for="{{dropJson[index]}}" wx:for-item="item">
+      <view>{{item.address}}</view>
+    </block>
+  </view>
+</view>

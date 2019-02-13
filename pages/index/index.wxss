@@ -1,0 +1,16 @@
+.bg {
+  width: 100%;
+}
+
+.bg image {
+  display: block;
+  width: 100%;
+  max-height: 40%;
+}
+.container picker{
+  padding-top: 40rpx;
+  color: #b51a25;
+}
+.show-box {
+  padding-top: 15rpx;
+}

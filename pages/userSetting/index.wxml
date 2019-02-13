@@ -1,0 +1,3 @@
+<view class="bg">
+  <image src='../../images/fgo_bg_01.jpg' mode='aspectFill'></image>
+</view>
